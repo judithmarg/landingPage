@@ -4,6 +4,7 @@
 
 body{
     background-color: rgb(238,238,238);
+    font-family: sans-serif;
 }
 #header{
     position: fixed;
@@ -45,6 +46,9 @@ img{
 
 main{
     margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #cuenta{
@@ -83,5 +87,28 @@ form{
 
 #features{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+
+i{
+    height: 50px;
+    width: 50px;
+}
+
+#pricing{
+    text-align: center;
+}
+
+#pricing>section{
+    border: 1px solid black;
+    margin: 20px;
+    width: 250px;
+    height: auto;
+    padding: 10px;
+}
+
+footer{
+    text-align: right;
 }
