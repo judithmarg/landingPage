@@ -86,15 +86,30 @@ form{
 }
 
 #features{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: center;
+    align-items: center;*/
+    margin: auto 50px;
 }
 
-i{
-    height: 50px;
-    width: 50px;
+.fas.fa-solid{
+    font-size: 50px;
+    color:rgb(254,160,40);
+    margin: 20px 100px;
+}
+
+#features section{
+    display: flex;
+    margin: 30px;
+}
+
+.descrip>h3{
+    font-size: 22px;
+    margin: 0px 0px;
+}
+.descrip>p{
+    margin:0px;
 }
 
 #pricing{
